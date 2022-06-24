@@ -2,7 +2,7 @@ const axios = require('axios').default;
 
 exports.handler = async function (event, context) {
 
-    const url = "https://fmovies.to"
+    const url = "https://google.com"
 
     // Make a request for a user with a given ID
     let response = await axios.get(url)
