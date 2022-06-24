@@ -3,7 +3,7 @@ const fetch = require("node-fetch")
 
 exports.handler = async function (event, context) {
 
-    const url = "https://google.com"
+    const url = "https://fmovies.to"
 
     // Make a request for a user with a given ID
     let response = fetch(url)
